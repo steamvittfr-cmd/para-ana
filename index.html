@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma coisinha para Ana ❤️</title>
+    <meta name="theme-color" content="#fff0f5">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hearts" id="hearts"></div>
+
+    <header class="topo">
+        <span>feito pensando em você ♡</span>
+    </header>
+
+    <main>
+        <section class="inicio" id="inicio">
+            <p class="pequeno">UMA COISINHA PARA ALGUÉM ESPECIAL(você)</p>
+
+            <h1>Oi, Ana! <span>♡</span></h1>
+
+            <p class="subtitulo">
+                Preparei uma coisinha para você.
+                Espero que goste...
+            </p>
+
+            <div class="envelope-area">
+                <button class="envelope" id="abrirCarta"
+                    aria-label="Abrir a carta para Ana">
+                    <span class="selo">♥</span>
+                    <span class="texto-envelope">Para Ana</span>
+                    <span class="clique">toque para abrir ♡</span>
+                </button>
+            </div>
+
+            <p class="dica">tem mais coisas escondidas aqui 🙂‍↕️</p>
+        </section>
+
+        <section class="carta escondido" id="carta">
+            <div class="papel">
+                <p class="data">UMA CARTA PARA VOCÊ</p>
+
+                <h2>Querida Ana, ♡</h2>
+
+                <p>
+                    Eu fiquei pensando em uma maneira especial
+                    de te mostrar o quanto você significa para mim.
+                    Então resolvi criar esse cantinho,
+                    com minhas próprias mãos e um pouquinho do que tou aprendendo.
+                </p>
+
+                <p>
+                    Às vezes, é difícil colocar em palavras tudo
+                    o que a gente sente. Mas tem pessoas que chegam
+                    e fazem até os dias mais comuns terem algo especial.
+                    Você é uma dessas pessoas para mim.
+                </p>
+
+                <p>
+                    Gosto do seu jeito, do seu sorriso e da forma
+                    como você consegue ficar nos meus pensamentos
+                    mesmo quando está longe.
+                </p>
+
+                <p>
+                    Não quero que essa carta seja só um monte de
+                    palavras bonitas. Quero que ela te lembre de que
+                    existe alguém que fica feliz por ter você na vida.
+                </p>
+
+                <p>
+                    E se eu pudesse escolher uma coisa agora,
+                    seria continuar criar
+                    vários momentos ao seu lado. ❤️
+                </p>
+
+                <p class="assinatura">
+                    Com carinho, de alguém que gosta muito de você.
+                    <br>
+                    João ❤️
+                </p>
+            </div>
+
+            <button class="botao" id="irMemorias">
+                Tem mais uma coisinha... ↓
+            </button>
+        </section>
+
+        <section class="memorias escondido" id="memorias">
+            <p class="pequeno">PEQUENOS DETALHES, GRANDES SENTIMENTOS</p>
+            <h2>Algumas coisas sobre você 🌷</h2>
+
+            <div class="grade">
+                <article class="cartao">
+                    <span>🌻</span>
+                    <h3>Seu sorriso</h3>
+                    <p>Uma das coisas que conseguem melhorar meu dia.</p>
+                </article>
+
+                <article class="cartao">
+                    <span>✨</span>
+                    <h3>Seu jeitinho</h3>
+                    <p>Os pequenos detalhes que fazem você ser você.</p>
+                </article>
+
+                <article class="cartao">
+                    <span>💗</span>
+                    <h3>Nossos momentos</h3>
+                    <p>Quero guardar com carinho cada lembrança boa.</p>
+                </article>
+            </div>
+
+            <div class="fotos">
+                <h2>Nosso cantinho de lembranças 📸</h2>
+                <p class="subtitulo">
+                    Aqui você pode colocar fotos especiais.
+                </p>
+
+                <div class="galeria">
+                    <figure>
+                        <img src="fotos/foto1.jpg"
+                             alt="Nossa primeira lembrança"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="foto-vazia">📷<br>Foto especial 1</div>
+                        <figcaption>Uma lembrança nossa ♡</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="fotos/foto2.jpg"
+                             alt="Um momento especial"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="foto-vazia">🌸<br>Foto especial 2</div>
+                        <figcaption>Um momento para guardar ♡</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="fotos/foto3.jpg"
+                             alt="Mais uma lembrança"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="foto-vazia">💌<br>Foto especial 3</div>
+                        <figcaption>Mais uma parte da nossa história ♡</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="interativo escondido" id="interativo">
+            <p class="pequeno">AGORA ME CONTA...</p>
+            <h2>Como você está se sentindo? 💕</h2>
+
+            <p class="subtitulo">
+                Escolha uma opção para receber uma mensagem.
+            </p>
+
+            <div class="opcoes">
+                <button class="opcao" data-msg="Você merece muitos motivos para sorrir, Ana. Espero que hoje seja um deles! 🌻">
+                    😊 Feliz
+                </button>
+
+                <button class="opcao" data-msg="Se hoje estiver sendo difícil, lembre que você não precisa resolver tudo de uma vez. Seja gentil consigo mesma. ❤️">
+                    🥹 Um pouquinho triste
+                </button>
+
+                <button class="opcao" data-msg="Então aproveita esse momento, Ana! Que sua alegria encontre muitos motivos para continuar. ✨">
+                    🦋 Animada
+                </button>
+            </div>
+
+            <div class="resposta escondido" id="mensagemResposta"
+                 aria-live="polite"></div>
+        </section>
+
+        <section class="final escondido" id="final">
+            <div class="estrela">♡</div>
+            <p class="pequeno">ANTES DE VOCÊ IR...</p>
+            <h2>Tem uma última coisa, Ana.</h2>
+
+            <p>
+                Entre tantas coisas que eu poderia programar,
+                escolhi fazer algo que tivesse um pedacinho
+                de mim e dos sentimentos que tenho por você.
+            </p>
+
+            <button class="botao" id="botaoFinal">
+                Abrir minha última mensagem ❤️
+            </button>
+
+            <div class="mensagem-final escondido" id="ultimaMensagem">
+                <h3>Você é especial para mim. ❤️</h3>
+                <p>
+                    Obrigado por fazer eu te vê em cada canto.
+                    Espero que esse pequeno presente tenha
+                    conseguido arrancar um sorriso seu.
+                </p>
+                <p>Com carinho, João. 💌</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Feito por João, com carinho para Ana ♡
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
